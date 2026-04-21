@@ -1,0 +1,11 @@
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.exe.config
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.exe
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.pdb
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.AssemblyReference.cache
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.frmPricipal.resources
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.Properties.Resources.resources
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.GenerateResource.cache
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.CoreCompileInputs.cache
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.exe
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.pdb
+C:\Users\baupe\OneDrive\Escritorio\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.exe.config
