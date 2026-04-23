@@ -84,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="car-side-view-in-a-rounded-square_icon-icons.com_70773.ico" />
+    <Content Include="BaseDatos\pryPereiroSGFaccdb.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
