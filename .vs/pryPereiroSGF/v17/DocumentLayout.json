@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\baupe\\OneDrive\\Escritorio\\pryPereiroSGF\\",
+  "WorkspaceRootPath": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|c:\\users\\baupe\\onedrive\\escritorio\\prypereirosgf\\prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|c:\\users\\baupe\\onedrive\\escritorio\\by2hash\\prypereirosgf\\prypereirosgf\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|solutionrelative:prypereirosgf\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|c:\\users\\baupe\\onedrive\\escritorio\\by2hash\\prypereirosgf\\prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|solutionrelative:prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|c:\\users\\baupe\\onedrive\\escritorio\\prypereirosgf\\prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{289631A4-FBC3-41A0-BD5D-CDBCB4880E12}|pryPereiroSGF\\pryPereiroSGF.csproj|solutionrelative:prypereirosgf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,32 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\baupe\\OneDrive\\Escritorio\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
               "RelativeDocumentMoniker": "pryPereiroSGF\\Form1.cs",
-              "ToolTip": "C:\\Users\\baupe\\OneDrive\\Escritorio\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "pryPereiroSGF\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
+              "RelativeToolTip": "pryPereiroSGF\\Form1.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowFIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T02:04:30.501Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-21T02:32:11.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\baupe\\OneDrive\\Escritorio\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
-              "RelativeDocumentMoniker": "pryPereiroSGF\\Form1.cs",
-              "ToolTip": "C:\\Users\\baupe\\OneDrive\\Escritorio\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
-              "RelativeToolTip": "pryPereiroSGF\\Form1.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADUAAABRAAAAAAAAAA==",
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Conexion.cs",
+              "RelativeDocumentMoniker": "pryPereiroSGF\\Conexion.cs",
+              "ToolTip": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Conexion.cs",
+              "RelativeToolTip": "pryPereiroSGF\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T02:32:11.248Z",
+              "WhenOpened": "2026-04-25T01:18:37.54Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs",
+              "RelativeDocumentMoniker": "pryPereiroSGF\\Form1.cs",
+              "ToolTip": "C:\\Users\\baupe\\OneDrive\\Escritorio\\By2Hash\\pryPereiroSGF\\pryPereiroSGF\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "pryPereiroSGF\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:04:30.501Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

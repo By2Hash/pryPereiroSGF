@@ -20,3 +20,15 @@ C:\Users\Alumno\source\repos\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPe
 C:\Users\Alumno\source\repos\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.exe
 C:\Users\Alumno\source\repos\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.pdb
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\bin\Debug\BaseDatos\pryPereiroSGFaccdb.accdb
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.exe.config
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.exe
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\bin\Debug\pryPereiroSGF.pdb
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.AssemblyReference.cache
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.exe.config
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.frmPricipal.resources
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.Properties.Resources.resources
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.GenerateResource.cache
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.csproj.CoreCompileInputs.cache
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.exe
+C:\Users\baupe\OneDrive\Escritorio\By2Hash\pryPereiroSGF\pryPereiroSGF\obj\Debug\pryPereiroSGF.pdb
