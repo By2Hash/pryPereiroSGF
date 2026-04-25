@@ -90,28 +90,55 @@ namespace pryPereiroSGF
         // ──────────────────────────────────────────────
         // Tab "Cargar Flota"
         // ──────────────────────────────────────────────
-        private void button1_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
-            // TODO: lógica de guardar registro
+            var gestor = new CGestorFlota(_rutaBD)
+            {
+                // Datos del vehículo
+                Patente = txtPatente.Text.Trim(),
+                Marca = txtMarca.Text.Trim(),
+                Modelo = txtModelo.Text.Trim(),
+                VencimientoSeguro = mskVencimiento.Text.Trim(),
+                UltimoMant = txtUltMant.Text.Trim(),
+
+                // Datos del chofer
+                IDChofer = txtIDChofer.Text.Trim(),
+                NombreCompleto = txtNombreCompleto.Text.Trim(),
+                DNI = txtDNI.Text.Trim(),
+                Telefono = mskTelefono.Text.Trim(),
+                Licencia = txtLicencia.Text.Trim(),
+
+                // Datos del contrato
+                TipoContrato = cmbTipo.SelectedItem?.ToString(),
+                MontoAlquilado = txtMontoAlquilado.Text.Trim(),
+                FechaInicio = mskFechaInicio.Text.Trim()
+            };
+
+            bool ok = gestor.GuardarRegistro();
+
+            if (ok)
+            {
+                MessageBox.Show(
+                    "Registro guardado correctamente.",
+                    "Éxito",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+
+                LimpiarCampos();   // limpia el formulario tras guardar
+            }
+            else
+            {
+                MessageBox.Show(
+                    gestor.ObtenerError(),
+                    "Error al guardar",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtPatente.Clear();
-            txtMarca.Clear();
-            txtModelo.Clear();
-            mskVencimiento.Clear();
-            txtUltMant.Clear();
-
-            txtIDChofer.Clear();
-            txtNombreCompleto.Clear();
-            txtDNI.Clear();
-            mskTelefono.Clear();
-            txtLicencia.Clear();
-
-            cmbTipo.SelectedIndex = -1;
-            txtMontoAlquilado.Clear();
-            mskFechaInicio.Clear();
+            
         }
 
         // ──────────────────────────────────────────────
@@ -137,6 +164,39 @@ namespace pryPereiroSGF
             var box = (GroupBox)sender;
             using (var pen = new System.Drawing.Pen(System.Drawing.Color.Black, 2))
                 e.Graphics.DrawRectangle(pen, 0, 10, box.Width - 1, box.Height - 11);
+        }
+
+   
+
+
+    private void LimpiarCampos()
+        {
+            // Vehículo
+            txtPatente.Clear();
+            txtMarca.Clear();
+            txtModelo.Clear();
+            mskVencimiento.Clear();
+            txtUltMant.Clear();
+
+            // Chofer
+            txtIDChofer.Clear();
+            txtNombreCompleto.Clear();
+            txtDNI.Clear();
+            mskTelefono.Clear();
+            txtLicencia.Clear();
+
+            // Contrato
+            cmbTipo.SelectedIndex = -1;
+            txtMontoAlquilado.Clear();
+            mskFechaInicio.Clear();
+
+            // Foco al primer campo
+            txtPatente.Focus();
+        }
+
+        private void btnLimpiar_Click_1(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
     }
 }

@@ -100,7 +100,7 @@
             this.tabConsultar.Controls.Add(this.lblCargar);
             this.tabConsultar.Location = new System.Drawing.Point(4, 29);
             this.tabConsultar.Name = "tabConsultar";
-            this.tabConsultar.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabConsultar.Padding = new System.Windows.Forms.Padding(3);
             this.tabConsultar.Size = new System.Drawing.Size(1250, 502);
             this.tabConsultar.TabIndex = 0;
             this.tabConsultar.Text = "Consultar BD";
@@ -160,7 +160,7 @@
             this.tabCargar.Controls.Add(this.gpbDatosVehiculo);
             this.tabCargar.Location = new System.Drawing.Point(4, 29);
             this.tabCargar.Name = "tabCargar";
-            this.tabCargar.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabCargar.Padding = new System.Windows.Forms.Padding(3);
             this.tabCargar.Size = new System.Drawing.Size(1250, 502);
             this.tabCargar.TabIndex = 1;
             this.tabCargar.Text = "Cargar Flota";
@@ -363,6 +363,7 @@
             this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar Campos";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click_1);
             // 
             // btnGuardar
             // 
@@ -372,7 +373,7 @@
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar Registro";
             this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.button1_Click);
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // gpbDatosVehiculo
             // 
