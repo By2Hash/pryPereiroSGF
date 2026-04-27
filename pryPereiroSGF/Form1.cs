@@ -99,7 +99,6 @@ namespace pryPereiroSGF
                 Marca = txtMarca.Text.Trim(),
                 Modelo = txtModelo.Text.Trim(),
                 VencimientoSeguro = mskVencimiento.Text.Trim(),
-                UltimoMant = txtUltMant.Text.Trim(),
 
                 // Datos del chofer
                 IDChofer = txtIDChofer.Text.Trim(),
@@ -111,7 +110,6 @@ namespace pryPereiroSGF
                 // Datos del contrato
                 TipoContrato = cmbTipo.SelectedItem?.ToString(),
                 MontoAlquilado = txtMontoAlquilado.Text.Trim(),
-                FechaInicio = mskFechaInicio.Text.Trim()
             };
 
             bool ok = gestor.GuardarRegistro();
@@ -161,9 +159,7 @@ namespace pryPereiroSGF
 
         private static void PintarGroupBox(object sender, System.Windows.Forms.PaintEventArgs e)
         {
-            var box = (GroupBox)sender;
-            using (var pen = new System.Drawing.Pen(System.Drawing.Color.Black, 2))
-                e.Graphics.DrawRectangle(pen, 0, 10, box.Width - 1, box.Height - 11);
+            
         }
 
    
@@ -176,7 +172,6 @@ namespace pryPereiroSGF
             txtMarca.Clear();
             txtModelo.Clear();
             mskVencimiento.Clear();
-            txtUltMant.Clear();
 
             // Chofer
             txtIDChofer.Clear();
@@ -188,7 +183,6 @@ namespace pryPereiroSGF
             // Contrato
             cmbTipo.SelectedIndex = -1;
             txtMontoAlquilado.Clear();
-            mskFechaInicio.Clear();
 
             // Foco al primer campo
             txtPatente.Focus();
@@ -197,6 +191,11 @@ namespace pryPereiroSGF
         private void btnLimpiar_Click_1(object sender, EventArgs e)
         {
             LimpiarCampos();
+        }
+
+        private void gpbDatosVehiculo_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
