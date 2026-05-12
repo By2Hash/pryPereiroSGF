@@ -39,6 +39,9 @@
             this.tabCargar = new System.Windows.Forms.TabPage();
             this.lblContrato = new System.Windows.Forms.Label();
             this.gpbContrato = new System.Windows.Forms.GroupBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtIdContrato = new System.Windows.Forms.TextBox();
+            this.lblIdContrato = new System.Windows.Forms.Label();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.txtMontoAlquilado = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.Label();
@@ -60,6 +63,12 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.gpbDatosVehiculo = new System.Windows.Forms.GroupBox();
+            this.txtEstado = new System.Windows.Forms.TextBox();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.txtMantenimiento = new System.Windows.Forms.TextBox();
+            this.lblMantenimiento = new System.Windows.Forms.Label();
+            this.txtIdVehiculo = new System.Windows.Forms.TextBox();
+            this.lblIdVehiculo = new System.Windows.Forms.Label();
             this.mskVencimiento = new System.Windows.Forms.MaskedTextBox();
             this.txtModelo = new System.Windows.Forms.TextBox();
             this.txtMarca = new System.Windows.Forms.TextBox();
@@ -69,15 +78,6 @@
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblPatente = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.lblIdVehiculo = new System.Windows.Forms.Label();
-            this.txtIdVehiculo = new System.Windows.Forms.TextBox();
-            this.txtMantenimiento = new System.Windows.Forms.TextBox();
-            this.lblMantenimiento = new System.Windows.Forms.Label();
-            this.txtEstado = new System.Windows.Forms.TextBox();
-            this.lblEstado = new System.Windows.Forms.Label();
-            this.txtIdContrato = new System.Windows.Forms.TextBox();
-            this.lblIdContrato = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
@@ -93,7 +93,7 @@
             this.tabControl1.Controls.Add(this.tabConsultar);
             this.tabControl1.Controls.Add(this.tabCargar);
             this.tabControl1.Location = new System.Drawing.Point(8, 8);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(839, 431);
@@ -106,9 +106,9 @@
             this.tabConsultar.Controls.Add(this.btnCargar);
             this.tabConsultar.Controls.Add(this.lblCargar);
             this.tabConsultar.Location = new System.Drawing.Point(4, 22);
-            this.tabConsultar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabConsultar.Margin = new System.Windows.Forms.Padding(2);
             this.tabConsultar.Name = "tabConsultar";
-            this.tabConsultar.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabConsultar.Padding = new System.Windows.Forms.Padding(2);
             this.tabConsultar.Size = new System.Drawing.Size(831, 405);
             this.tabConsultar.TabIndex = 0;
             this.tabConsultar.Text = "Consultar BD";
@@ -119,7 +119,7 @@
             // 
             this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDatos.Location = new System.Drawing.Point(7, 72);
-            this.dgvDatos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvDatos.Margin = new System.Windows.Forms.Padding(2);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.RowHeadersVisible = false;
             this.dgvDatos.RowHeadersWidth = 62;
@@ -132,7 +132,7 @@
             this.cmbBaseDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBaseDatos.FormattingEnabled = true;
             this.cmbBaseDatos.Location = new System.Drawing.Point(405, 30);
-            this.cmbBaseDatos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbBaseDatos.Margin = new System.Windows.Forms.Padding(2);
             this.cmbBaseDatos.Name = "cmbBaseDatos";
             this.cmbBaseDatos.Size = new System.Drawing.Size(209, 24);
             this.cmbBaseDatos.TabIndex = 2;
@@ -142,7 +142,7 @@
             this.btnCargar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargar.Location = new System.Drawing.Point(645, 30);
-            this.btnCargar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCargar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(88, 25);
             this.btnCargar.TabIndex = 1;
@@ -172,9 +172,9 @@
             this.tabCargar.Controls.Add(this.btnGuardar);
             this.tabCargar.Controls.Add(this.gpbDatosVehiculo);
             this.tabCargar.Location = new System.Drawing.Point(4, 22);
-            this.tabCargar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabCargar.Margin = new System.Windows.Forms.Padding(2);
             this.tabCargar.Name = "tabCargar";
-            this.tabCargar.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabCargar.Padding = new System.Windows.Forms.Padding(2);
             this.tabCargar.Size = new System.Drawing.Size(831, 405);
             this.tabCargar.TabIndex = 1;
             this.tabCargar.Text = "Cargar Flota";
@@ -201,12 +201,39 @@
             this.gpbContrato.Controls.Add(this.lblMontoAlquilado);
             this.gpbContrato.Controls.Add(this.label12);
             this.gpbContrato.Location = new System.Drawing.Point(568, 43);
-            this.gpbContrato.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbContrato.Margin = new System.Windows.Forms.Padding(2);
             this.gpbContrato.Name = "gpbContrato";
-            this.gpbContrato.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbContrato.Padding = new System.Windows.Forms.Padding(2);
             this.gpbContrato.Size = new System.Drawing.Size(246, 270);
             this.gpbContrato.TabIndex = 8;
             this.gpbContrato.TabStop = false;
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(117, 198);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(120, 20);
+            this.txtDescripcion.TabIndex = 13;
+            // 
+            // txtIdContrato
+            // 
+            this.txtIdContrato.Location = new System.Drawing.Point(115, 23);
+            this.txtIdContrato.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIdContrato.Name = "txtIdContrato";
+            this.txtIdContrato.Size = new System.Drawing.Size(122, 20);
+            this.txtIdContrato.TabIndex = 12;
+            // 
+            // lblIdContrato
+            // 
+            this.lblIdContrato.AutoSize = true;
+            this.lblIdContrato.Location = new System.Drawing.Point(6, 26);
+            this.lblIdContrato.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblIdContrato.Name = "lblIdContrato";
+            this.lblIdContrato.Size = new System.Drawing.Size(52, 13);
+            this.lblIdContrato.TabIndex = 11;
+            this.lblIdContrato.Text = "ID Chofer";
             // 
             // cmbTipo
             // 
@@ -219,7 +246,7 @@
             // txtMontoAlquilado
             // 
             this.txtMontoAlquilado.Location = new System.Drawing.Point(115, 152);
-            this.txtMontoAlquilado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMontoAlquilado.Margin = new System.Windows.Forms.Padding(2);
             this.txtMontoAlquilado.Name = "txtMontoAlquilado";
             this.txtMontoAlquilado.Size = new System.Drawing.Size(120, 20);
             this.txtMontoAlquilado.TabIndex = 7;
@@ -227,12 +254,12 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(6, 207);
+            this.lblDescripcion.Location = new System.Drawing.Point(6, 202);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(65, 13);
+            this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcion.TabIndex = 3;
-            this.lblDescripcion.Text = "Fecha Inicio";
+            this.lblDescripcion.Text = "Descripción";
             // 
             // lblMontoAlquilado
             // 
@@ -277,9 +304,9 @@
             this.gpbDatosChofer.Controls.Add(this.lblNombreCompleto);
             this.gpbDatosChofer.Controls.Add(this.lblIdChofer);
             this.gpbDatosChofer.Location = new System.Drawing.Point(292, 43);
-            this.gpbDatosChofer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbDatosChofer.Margin = new System.Windows.Forms.Padding(2);
             this.gpbDatosChofer.Name = "gpbDatosChofer";
-            this.gpbDatosChofer.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbDatosChofer.Padding = new System.Windows.Forms.Padding(2);
             this.gpbDatosChofer.Size = new System.Drawing.Size(246, 270);
             this.gpbDatosChofer.TabIndex = 6;
             this.gpbDatosChofer.TabStop = false;
@@ -287,7 +314,7 @@
             // mskTelefono
             // 
             this.mskTelefono.Location = new System.Drawing.Point(130, 168);
-            this.mskTelefono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mskTelefono.Margin = new System.Windows.Forms.Padding(2);
             this.mskTelefono.Name = "mskTelefono";
             this.mskTelefono.Size = new System.Drawing.Size(105, 20);
             this.mskTelefono.TabIndex = 9;
@@ -295,7 +322,7 @@
             // txtLicencia
             // 
             this.txtLicencia.Location = new System.Drawing.Point(128, 220);
-            this.txtLicencia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLicencia.Margin = new System.Windows.Forms.Padding(2);
             this.txtLicencia.Name = "txtLicencia";
             this.txtLicencia.Size = new System.Drawing.Size(105, 20);
             this.txtLicencia.TabIndex = 8;
@@ -303,7 +330,7 @@
             // txtDNI
             // 
             this.txtDNI.Location = new System.Drawing.Point(130, 123);
-            this.txtDNI.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDNI.Margin = new System.Windows.Forms.Padding(2);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(105, 20);
             this.txtDNI.TabIndex = 7;
@@ -311,7 +338,7 @@
             // txtNombreCompleto
             // 
             this.txtNombreCompleto.Location = new System.Drawing.Point(130, 73);
-            this.txtNombreCompleto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreCompleto.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreCompleto.Name = "txtNombreCompleto";
             this.txtNombreCompleto.Size = new System.Drawing.Size(105, 20);
             this.txtNombreCompleto.TabIndex = 6;
@@ -319,7 +346,7 @@
             // txtIDChofer
             // 
             this.txtIDChofer.Location = new System.Drawing.Point(130, 23);
-            this.txtIDChofer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIDChofer.Margin = new System.Windows.Forms.Padding(2);
             this.txtIDChofer.Name = "txtIDChofer";
             this.txtIDChofer.Size = new System.Drawing.Size(105, 20);
             this.txtIDChofer.TabIndex = 5;
@@ -387,7 +414,7 @@
             // btnLimpiar
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(708, 340);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(106, 38);
             this.btnLimpiar.TabIndex = 4;
@@ -398,7 +425,7 @@
             // btnGuardar
             // 
             this.btnGuardar.Location = new System.Drawing.Point(568, 340);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(106, 38);
             this.btnGuardar.TabIndex = 3;
@@ -423,19 +450,73 @@
             this.gpbDatosVehiculo.Controls.Add(this.lblMarca);
             this.gpbDatosVehiculo.Controls.Add(this.lblPatente);
             this.gpbDatosVehiculo.Location = new System.Drawing.Point(21, 43);
-            this.gpbDatosVehiculo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbDatosVehiculo.Margin = new System.Windows.Forms.Padding(2);
             this.gpbDatosVehiculo.Name = "gpbDatosVehiculo";
-            this.gpbDatosVehiculo.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gpbDatosVehiculo.Padding = new System.Windows.Forms.Padding(2);
             this.gpbDatosVehiculo.Size = new System.Drawing.Size(246, 270);
             this.gpbDatosVehiculo.TabIndex = 0;
             this.gpbDatosVehiculo.TabStop = false;
             this.gpbDatosVehiculo.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox1_Paint);
             this.gpbDatosVehiculo.Enter += new System.EventHandler(this.gpbDatosVehiculo_Enter);
             // 
+            // txtEstado
+            // 
+            this.txtEstado.Location = new System.Drawing.Point(132, 242);
+            this.txtEstado.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(105, 20);
+            this.txtEstado.TabIndex = 16;
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(6, 245);
+            this.lblEstado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(40, 13);
+            this.lblEstado.TabIndex = 15;
+            this.lblEstado.Text = "Estado";
+            // 
+            // txtMantenimiento
+            // 
+            this.txtMantenimiento.Location = new System.Drawing.Point(130, 164);
+            this.txtMantenimiento.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMantenimiento.Name = "txtMantenimiento";
+            this.txtMantenimiento.Size = new System.Drawing.Size(105, 20);
+            this.txtMantenimiento.TabIndex = 14;
+            // 
+            // lblMantenimiento
+            // 
+            this.lblMantenimiento.AutoSize = true;
+            this.lblMantenimiento.Location = new System.Drawing.Point(4, 167);
+            this.lblMantenimiento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMantenimiento.Name = "lblMantenimiento";
+            this.lblMantenimiento.Size = new System.Drawing.Size(76, 13);
+            this.lblMantenimiento.TabIndex = 13;
+            this.lblMantenimiento.Text = "Mantenimiento";
+            // 
+            // txtIdVehiculo
+            // 
+            this.txtIdVehiculo.Location = new System.Drawing.Point(130, 23);
+            this.txtIdVehiculo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIdVehiculo.Name = "txtIdVehiculo";
+            this.txtIdVehiculo.Size = new System.Drawing.Size(105, 20);
+            this.txtIdVehiculo.TabIndex = 11;
+            // 
+            // lblIdVehiculo
+            // 
+            this.lblIdVehiculo.AutoSize = true;
+            this.lblIdVehiculo.Location = new System.Drawing.Point(4, 26);
+            this.lblIdVehiculo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblIdVehiculo.Name = "lblIdVehiculo";
+            this.lblIdVehiculo.Size = new System.Drawing.Size(63, 13);
+            this.lblIdVehiculo.TabIndex = 10;
+            this.lblIdVehiculo.Text = "Id_Vehiculo";
+            // 
             // mskVencimiento
             // 
             this.mskVencimiento.Location = new System.Drawing.Point(130, 202);
-            this.mskVencimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mskVencimiento.Margin = new System.Windows.Forms.Padding(2);
             this.mskVencimiento.Mask = "00/00/0000";
             this.mskVencimiento.Name = "mskVencimiento";
             this.mskVencimiento.Size = new System.Drawing.Size(105, 20);
@@ -445,7 +526,7 @@
             // txtModelo
             // 
             this.txtModelo.Location = new System.Drawing.Point(130, 126);
-            this.txtModelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtModelo.Margin = new System.Windows.Forms.Padding(2);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(105, 20);
             this.txtModelo.TabIndex = 7;
@@ -453,7 +534,7 @@
             // txtMarca
             // 
             this.txtMarca.Location = new System.Drawing.Point(130, 91);
-            this.txtMarca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMarca.Margin = new System.Windows.Forms.Padding(2);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(105, 20);
             this.txtMarca.TabIndex = 6;
@@ -461,7 +542,7 @@
             // txtPatente
             // 
             this.txtPatente.Location = new System.Drawing.Point(130, 59);
-            this.txtPatente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPatente.Margin = new System.Windows.Forms.Padding(2);
             this.txtPatente.Name = "txtPatente";
             this.txtPatente.Size = new System.Drawing.Size(105, 20);
             this.txtPatente.TabIndex = 5;
@@ -506,87 +587,6 @@
             this.lblPatente.TabIndex = 0;
             this.lblPatente.Text = "Patente";
             // 
-            // lblIdVehiculo
-            // 
-            this.lblIdVehiculo.AutoSize = true;
-            this.lblIdVehiculo.Location = new System.Drawing.Point(4, 26);
-            this.lblIdVehiculo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblIdVehiculo.Name = "lblIdVehiculo";
-            this.lblIdVehiculo.Size = new System.Drawing.Size(63, 13);
-            this.lblIdVehiculo.TabIndex = 10;
-            this.lblIdVehiculo.Text = "Id_Vehiculo";
-            // 
-            // txtIdVehiculo
-            // 
-            this.txtIdVehiculo.Location = new System.Drawing.Point(130, 23);
-            this.txtIdVehiculo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIdVehiculo.Name = "txtIdVehiculo";
-            this.txtIdVehiculo.Size = new System.Drawing.Size(105, 20);
-            this.txtIdVehiculo.TabIndex = 11;
-            // 
-            // txtMantenimiento
-            // 
-            this.txtMantenimiento.Location = new System.Drawing.Point(130, 164);
-            this.txtMantenimiento.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMantenimiento.Name = "txtMantenimiento";
-            this.txtMantenimiento.Size = new System.Drawing.Size(105, 20);
-            this.txtMantenimiento.TabIndex = 14;
-            // 
-            // lblMantenimiento
-            // 
-            this.lblMantenimiento.AutoSize = true;
-            this.lblMantenimiento.Location = new System.Drawing.Point(4, 167);
-            this.lblMantenimiento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblMantenimiento.Name = "lblMantenimiento";
-            this.lblMantenimiento.Size = new System.Drawing.Size(76, 13);
-            this.lblMantenimiento.TabIndex = 13;
-            this.lblMantenimiento.Text = "Mantenimiento";
-            // 
-            // txtEstado
-            // 
-            this.txtEstado.Location = new System.Drawing.Point(132, 242);
-            this.txtEstado.Margin = new System.Windows.Forms.Padding(2);
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(105, 20);
-            this.txtEstado.TabIndex = 16;
-            // 
-            // lblEstado
-            // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(6, 245);
-            this.lblEstado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(40, 13);
-            this.lblEstado.TabIndex = 15;
-            this.lblEstado.Text = "Estado";
-            // 
-            // txtIdContrato
-            // 
-            this.txtIdContrato.Location = new System.Drawing.Point(115, 23);
-            this.txtIdContrato.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIdContrato.Name = "txtIdContrato";
-            this.txtIdContrato.Size = new System.Drawing.Size(122, 20);
-            this.txtIdContrato.TabIndex = 12;
-            // 
-            // lblIdContrato
-            // 
-            this.lblIdContrato.AutoSize = true;
-            this.lblIdContrato.Location = new System.Drawing.Point(6, 26);
-            this.lblIdContrato.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblIdContrato.Name = "lblIdContrato";
-            this.lblIdContrato.Size = new System.Drawing.Size(52, 13);
-            this.lblIdContrato.TabIndex = 11;
-            this.lblIdContrato.Text = "ID Chofer";
-            // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Location = new System.Drawing.Point(115, 207);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(120, 51);
-            this.txtDescripcion.TabIndex = 13;
-            // 
             // frmPricipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -595,7 +595,7 @@
             this.ClientSize = new System.Drawing.Size(856, 450);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmPricipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Gestion de Flotas";
